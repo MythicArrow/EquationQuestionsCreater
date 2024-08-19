@@ -80,6 +80,7 @@ int main() {
     cout << "\nCorrect answers: " << correctAnswers << "/5" << endl;
     cout << "Total time : " << totalTime << " seconds " << endl;
     cout << "Average time: " << totalTime / 5 << "seconds " << endl;
+    cout<< "Made by MyhticArrow" <<endl;
 
     return 0;
 }
