@@ -30,10 +30,14 @@ double randomDouble(double min, double max) {
 int main() {
     srand(time(0));  // Random number seed
     int correctAnswers = 0;
+    int questionNumber;
+    cout<< "How many questions do you want to get asked? "<<endl;
+    cin>>questionNumber;
+
     clock_t startTime = clock();
 
-    // 5 equation question
-    for (int i = 0; i < 5; i++) {
+    // Equation questions
+    for (int i = 0; i < questionNumber; i++) {
         int equationType = rand() % 2;  // 0: linear, 1: quadratic
         double userAnswer1, userAnswer2;
 
