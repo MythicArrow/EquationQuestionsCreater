@@ -63,7 +63,7 @@ int main() {
             double b = randomDouble(-10, 10);
             double c = randomDouble(-10, 10);
 
-            cout << "Denklem: " << a << "*x^2 + " << b << "*x + " << c << " = 0" << endl;
+            cout << "Equation: " << a << "*x^2 + " << b << "*x + " << c << " = 0" << endl;
             cout << "x1 = ";
             cin >> userAnswer1;
             cout << "x2 = ";
